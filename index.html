@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>npm</title>
     <link rel="stylesheet" href="Resources/style.css">
-  </head>
-  <div class="header">
-    <div class="header-bar"><img src="Resources/Images/page-border.png" /></div>
+</head>
+<div class="header">
+    <div class="header-bar"></div>
     <div class="nav">
         <div class="nav-left">
-        <div class="nav-image"><img src="Resources/Images/heart.png" /></div>
-        <div class="nav-left-text"><a>Nervously Proposing Marriage</a></div>
+            <div class="nav-image"><img src="Resources/Images/heart.png" /></div>
+            <div class="variable-text">
+                <input type="checkbox" id="phrase">
+                <label for="phrase">
+                    <div class="nav-left-text">Never Please Meanies</div>
+                    <div class="text-start">
+                        <div class="text-random"></div>
+                    </div>
+                </label>
+            </div>
         </div>
         <div class="nav-right">
             <div class="nav-links">
@@ -28,20 +37,44 @@
             <div class="logo"><img src="Resources/Images/npm-logo.png" /></div>
             <div class="search-bar">
                 <div class="search-bar-image"><img src="Resources/Images/magnifying-glass.png" /></div>
-                <div class="search-bar-text">Search Packages</div>
-                <div class="search-button">Search</div>
+                <input class="search-bar-input" type="text" placeholder="Search Packages">
+                <div class="search-button">
+                    <div class="search-button-text">Search</div>
+                </div>
             </div>
             <div class="portal">
-                <a class="sign-up" href="https://www.npmjs.com/signup">Sign Up</a>
-                <a class="sign-in"  href="https://www.npmjs.com/login">Sign In</a>
+
+                <div class="sign-up-container">
+                    <a class="sign-up" href="https://www.npmjs.com/signup">Sign Up</a>
+                </div>
+                <div class="sign-in-container">
+                    <a class="sign-in" href="https://www.npmjs.com/login">Sign In</a>
+                </div>
             </div>
         </div>
     </div>
-  </div>
-  <div class="main">
+</div>
+<div class="main">
+    <div class="build-container">
+        <div class="build-content">
+            <div class="build-heading">Build amazing things</div>
+            <div class="build-desc">We're GitHub, the company behind the npm Registry and npm CLI. We offer those to the
+                community for free, but our day job is building and selling useful tools for developers like you.</div>
+            <div class="build-dev">Take your JavaScript development up a notch</div>
+            <div class="build-sign-up">Get started today for free, or step up to npm Pro to enjoy a premium JavaScript
+                development experience, with features like private packages.</div>
+            <div class="build-buttons">
+                <div class="build-button-sign-up"><a href="https://www.npmjs.com/signup">Sign up for free</a></div>
+                <div class="build-button-pro"><a href="https://www.npmjs.com/products/pro">Learn about Pro</a></div>
+            </div>
+        </div>
+    </div>
+    <div>
+        
+    </div>
+</div>
+<div class="footer">
 
-  </div>
-  <div class="footer">
+</div>
 
-  </div>
 </html>

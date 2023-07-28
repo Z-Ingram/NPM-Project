@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "Kamerik-bold";
+    src: url("Kamerik-105-W00-Bold.ttf");
+    font-family: "Kamerik";
+    src: url("Kamerik105Cyrillic-Book.ttf");
+}
+
+html {
+    font-family: "Kamerik";
+    font-size: 13px;
+    margin: 0;
+    color: black;
+}
+
+body {
+    margin: 0;
+}
+
+/* Top Of Page */
+
+.header {
+    margin-top: 0;
+}
+
+.header-bar {
+    background-image: url("Images/page-border.png");
+    max-height: 8px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.nav {
+    height: 50px;
+    width: 70%;
+    /* border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: lightgray; */
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.nav-left {
+    display: flex;
+    flex-direction: row;
+    margin: auto 0;
+    justify-content: start;
+}
+
+.nav-image img {
+    width: 20px;
+    height: auto;
+    margin-right: 18px;
+}
+
+.nav-left-text {
+
+}
+
+.nav-right {
+    margin: auto 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    transition: ease-in .25s;
+
+}
+
+.nav-links a:hover {
+    color: lightgrey;
+    transition: ease-in .25s;
+}
+
+.search {
+    width: 100%;
+    height: 70px;
+    border-top: 1px;
+    border-left: 0;
+    border-bottom: 1px;
+    border-right: 0;
+    border-style: solid;
+    border-color: lightgrey;
+}
+
+.search-container {
+    display: flex;
+    width: 70%;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 70px;
+}
+
+.search-bar {
+    width: 50%;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: row;
+}
+
+.search-bar-image img {
+    width: 20px;
+}

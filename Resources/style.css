@@ -447,6 +447,8 @@ input:checked+label .text-random::before {
 
 ul {
     list-style: none;
+    margin: 0;
+    padding-left: 0;
 }
 
 .list-head {
@@ -454,16 +456,30 @@ ul {
     font-size: 16px;
 }
 
+.footer-list-container {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: space-between;
+    max-width: 1153.25px;
+    width: 100%;
+    flex-wrap: wrap;
+    line-height: 34px;
+}
+
 .footer-support {
     font-size: 14px;
+    width: 200px;
+
 }
 
 .footer-company {
     font-size: 14px;
+    width: 200px;
 }
 
 .footer-terms {
     font-size: 14px;
+    width: 200px;
 }
 
 .footer-bar {
